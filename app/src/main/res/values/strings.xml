@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Operations</string>
+    <string name="rb1">Addition</string>
+    <string name="rb2">Subtraction</string>
+    <string name="rb3">Multiplication</string>
+    <string name="rb4">Division</string>
+    <string name="btn">Submit</string>
+    <string name="result">Result: 0</string>
+    <string name="num1">Set number one</string>
+    <string name="num2">Set number two</string>
+    <string name="sw1">Float</string>
+    <string name="sw2">Integer</string>
+</resources>
