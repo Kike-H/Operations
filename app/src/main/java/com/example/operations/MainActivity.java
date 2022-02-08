@@ -53,7 +53,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void operate(View view) {
         int value = checkRadioButtons();
-        float[] nums = getValues();
+        float[] nums = {};
+
+        try {
+            nums = getValues();
+        } catch (Exception e) {Toast.makeText(getApplicationContext(),"Incorrect values", Toast.LENGTH_SHORT);}
+
         float res = 0;
         String answ;
 
