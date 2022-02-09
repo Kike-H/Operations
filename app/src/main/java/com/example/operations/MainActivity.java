@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void operate(View view) {
         int value = checkRadioButtons();
-        float[] nums = {};
+        float[] nums = {0.0F, 0.0F};
 
         try {
             nums = getValues();
-        } catch (Exception e) {Toast.makeText(getApplicationContext(),"Incorrect values", Toast.LENGTH_SHORT);}
+        } catch (Exception e) {Toast.makeText(getApplicationContext(),"Incorrect values", Toast.LENGTH_LONG);}
 
         float res = 0;
         String answ;
@@ -80,10 +80,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (sw.isChecked()) {
-            answ = ""+(int)res;
+            answ = "Result: "+(int)res;
         }
         else {
-            answ = ""+res;
+            answ = "Result: "+res;
         }
 
         result.setText(answ);
