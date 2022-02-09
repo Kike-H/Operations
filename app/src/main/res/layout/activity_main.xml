@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="209dp"
-        android:layout_height="52dp"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="36dp"
         android:text="@string/result"
         android:textSize="34sp"
@@ -21,30 +21,30 @@
         android:id="@+id/inpt1"
         android:layout_width="300dp"
         android:layout_height="51dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="84dp"
         android:ems="10"
         android:hint="@string/num1"
         android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/inpt2"
-        android:layout_width="294dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/num2"
         android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inpt1"
         tools:ignore="TextContrastCheck" />
@@ -105,7 +105,5 @@
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpt2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
